@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.header {	width:100%;	}
+
+.meat, .menu-stations {/* padding-top:10px; padding-bottom:10px;*/ }
+
+.content {	box-shadow: 0px 2px 2px 2px rgba(255, 134, 44, 0.5); margin:10px auto; }
+
+.menu-stations { box-shadow: 10px 0 5px -2px #888;	/*box-shadow: 2px 0px 3px 2px rgba(255, 134, 44, 0.5);*/	}
+
+.menu-stations li {margin:10px auto !important; }
+
+.menu-stations ul{list-style-type: none; padding: 0; margin: 0;}
+
+.menu-stations li{ background-image:url(../images/bullet.png); background-repeat: no-repeat; background-size:10px; background-position:0 0.3em; padding-left: 0.8em; }
+
+.form-booking .col-md-12, .form-booking .col-md-6 { margin:10px auto;  } 
+
+.form-booking .col-md-6 .col-md-6 {margin:0; }
+
+.topmost {background-color:#FF8617; color:#fff; }
+.topmost .container {padding:8px; }
+.topmost a{color:#fff;}
+.topmost i {margin-right:3px; }
+.top-contacts span:first-child {margin-right:15px; }
+.menu-top { }
+.menu-top ul {  list-style-type: none; inline-block; float: right; margin:0 auto } 
+.menu-top li {float:left; margin:0 10px; }
+
+.sliders {  position: relative; text-align: center; }
+.sliders img {width:100%; }
+
+.logo img{ max-height:80px}
+
+.sliders .sitename {position: absolute;  top: 50%;  left: 50%;  transform: translate(-50%, -50%); color:#fff;  }
+
+.sliders .sitename #sitename {display:inline-block; padding:5px 10px; font-weight:bold; font-size:28px; text-transform:uppercase; background-color:rgba(0,0,0,0.4); }
+.sliders .sitename #sitename span { color:#FF8617; }
+
+.home {margin:20px auto 0!important;}
+
+.home .region {}
+
+.home .region-img  {position: relative; text-align: center; }
+
+.home .region-img .region-title {position: absolute;  top: 50%;  left: 50%;  transform: translate(-50%, -50%); color:#fff;
+	color: #FFF;
+    font-size: 24Px;
+    font-weight: 700;
+    letter-spacing: 1px; text-transform:uppercase;
+	 }
+	 
+.home .region-description{line-height:2em; float:left; padding:3px; color:#fff; } 
+
+.home  .row { float:left; margin:20px auto;}
+
+.home h2 {text-transform:uppercase; color:#FF8617; }
+
+.station-calendar {box-shadow: 4px 4px 3px 4px #888888; padding:5px; display:inline-block; width:100%;}
+
+.station-img img {width:100%; height:auto; margin:auto 15px auto 0 }
+
+.regions-stations { margin-top:30px!important; }
+.regions-stations ul { padding: 0;}
+
+.regions-stations ul li { 
+	margin: 10px 0;
+    padding-left: 25px;
+    list-style: none;
+    background-image: url(../images/icons/bullet.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 12px;
+	}
+
+.bg-grey {background-color:#fafafa;}
+.bg-white {background-color:#fff;}
+
+.iframe-400 {max-height:400px; overflow:scroll}
+
+.faq label{ display:inline-block!Important; }
+.plants{ margin-top:25px!important; box-shadow:5px 5px 5px 5px #aaa; }
+.plants ul { margin:15px auto;}
+
